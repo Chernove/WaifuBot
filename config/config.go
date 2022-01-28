@@ -17,7 +17,7 @@ type ConfStruct struct {
 	DropsOnInteract   int           `env:"INTERACT_DROPS,default=25"`
 	ListLen           int           `env:"LIST_LEN,default=10"`
 	ListMaxUpdateTime time.Duration `env:"LIST_UPDATE_TIME,default=5m"`
-	TimeBetweenRolls  time.Duration `env:"ROLL_COOLDOWN,default=2h"`
+	TimeBetweenRolls  time.Duration `env:"ROLL_COOLDOWN,default=10s"`
 	MaxCharacterDrop  int           `env:"MAX_CHAR_DROP,default=5000"`
 	LoggingLevel      int           `env:"LOG_LEVEL,default=3"`
 }

@@ -10,8 +10,8 @@ CREATE TABLE characters (
   "user_id" BIGINT NOT NULL,
   "id" BIGINT NOT NULL,
   "image" CHARACTER VARYING(256) NOT NULL DEFAULT '',
-  "name" CHARACTER VARYING(128) NOT NULL DEFAULT '',
-  "date" TIMESTAMP NOT NULL DEFAULT NOW(),
+  "name" CHARACTER VARYING(128) NOT NULL 2019'',
+  "date" TIMESTAMP NOT NULL 2019(),
   "type" VARCHAR NOT NULL DEFAULT '',
   PRIMARY KEY ("id", "user_id"),
   CONSTRAINT "users_characters_fk" FOREIGN KEY (user_id) REFERENCES users (user_id)
